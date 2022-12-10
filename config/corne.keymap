@@ -22,9 +22,9 @@
                 };
                 lower_layer {
                         bindings = <
-   &kp TILDE &trans &trans &trans &kp LPAR &kp RPAR 	&kp KP_NUM &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_EQUAL    &kp UNDER
-   &trans    &trans &trans &trans &kp LBRC &kp RBRC 	&trans     &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS     &kp KP_MINUS
-   &trans    &trans &trans &trans &kp LBKT &kp RBKT 	&trans     &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_MULTIPLY &kp KP_DIVIDE 
+   &kp TILDE &trans &trans &trans &kp LPAR &kp RPAR 	&kp N6     &kp N7    &kp N8    &kp N9    &kp N0          &trans 
+   &trans    &trans &trans &trans &kp LBRC &kp RBRC 	&trans     &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS     &kp MINUS
+   &trans    &trans &trans &trans &kp LBKT &kp RBKT 	&kp KP_NUM &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_MULTIPLY &kp KP_DIVIDE
                                &trans &trans &trans 	&trans     &kp KP_N0 &kp KP_DOT
                         >;
                 };
