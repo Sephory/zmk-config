@@ -7,5 +7,17 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-keyboard-toucan
+      url: https://github.com/beekeeb/zmk-keyboard-toucan.git
+      revision: main
+      path: modules/zmk-keyboard-toucan
+    - name: zmk-rgbled-widget
+      url: https://github.com/caksoylar/zmk-rgbled-widget.git
+      revision: v0.3
+      path: modules/zmk-rgbled-widget
+    - name: cirque-input-module
+      url: https://github.com/geeksville/cirque-input-module.git
+      revision: toucan
+      path: modules/cirque-input-module
   self:
     path: config
